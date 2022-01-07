@@ -1,0 +1,4 @@
+<launch>
+    <node name="feature_matching" pkg="mypkg" type="feature_matching.py" required="true" output="screen" />
+    <node name="send_signal" pkg="mypkg" type="send_signal.py" required="true" output="screen" />
+</launch>    
