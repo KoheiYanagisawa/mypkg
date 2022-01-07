@@ -12,9 +12,9 @@ def main():
     while not rospy.is_shutdown():
         cap = cv2.VideoCapture(0)
         #撮影した画像
-        path_takepic = "/home/"+os.getlogin+"/catkin_ws/src/mypkg/jpg/takepic.jpg"
+        path_takepic = "/home/"+os.getlogin()+"/catkin_ws/src/mypkg/jpg/takepic.jpg"
         #参照先の画像
-        path_base = "/home/"+os.getlogin+"/catkin_ws/src/mypkg/jpg/base.png"  
+        path_base = "/home/"+os.getlogin()+"/catkin_ws/src/mypkg/jpg/base.png"  
         #作成するクレースケール
     
         rospy.init_node('feature_matching')
