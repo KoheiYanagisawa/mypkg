@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import cv2
+import os
 import time
 import rospy 
 from std_msgs.msg import Int32
@@ -11,9 +12,9 @@ def main():
     while not rospy.is_shutdown():
         cap = cv2.VideoCapture(0)
         #撮影した画像
-        path_takepic = "/home/ubuntu/catkin_ws/src/mypkg/jpg/takepic.jpg"
+        path_takepic = "/home/"+os.getlogin+"/catkin_ws/src/mypkg/jpg/takepic.jpg"
         #参照先の画像
-        path_base = "/home/ubuntu/catkin_ws/src/mypkg/jpg/base.png"  
+        path_base = "/home/"+os.getlogin+"/catkin_ws/src/mypkg/jpg/base.png"  
         #作成するクレースケール
     
         rospy.init_node('feature_matching')
