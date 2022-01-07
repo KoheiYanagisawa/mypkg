@@ -50,14 +50,14 @@ def main():
         # 特徴量ベクトル同士をBrute-Force＆KNNでマッチング
         matches = bf.knnMatch(des1, des2, k=2)
 
-        ratio = 0.85
+        ratio = 0.80
         good = []
         for m, n in matches:
             if m.distance < ratio * n.distance:
                 good.append([m])
         feature_value = len(good)
         print(feature_value)
-        if(feature_value >= 5):
+        if(feature_value >= 10):
             print("参照データと一致")
             n = 1
             pub.publish(n)
