@@ -26,6 +26,7 @@
   catkin build
   source ~/.bashrc
   ```
+  ESP32についてはArduinoIDEで[こちらのコード](https://github.com/KoheiYanagisawa/mypkg/tree/main/esp32_code)を書き込んでください
   ### 実行
   - 端末を立ち上げ以下のコマンドを入力
   ```
