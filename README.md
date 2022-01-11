@@ -41,4 +41,4 @@
   ## 実際に動かした動画
   https://youtu.be/5n7cQr-E7A8
   ## ライセンス
-  - This repository is licensed under the []()
+  - This repository is licensed under the [GNU General Public License v3.0](https://github.com/KoheiYanagisawa/mypkg/blob/main/COPYING)
