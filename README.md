@@ -39,4 +39,6 @@
   - 結果が一致していた場合ESP32に信号が送られサーボが動き、中指が立ち上がります
   ![正面中指](https://user-images.githubusercontent.com/76610691/148870284-bd59b9a3-aabb-441a-b1b0-ff7f3b2ce91e.jpg)
   ## 実際に動かした動画
-https://youtu.be/5n7cQr-E7A8
+  https://youtu.be/5n7cQr-E7A8
+  ## ライセンス
+  - This repository is licensed under the []()
