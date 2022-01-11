@@ -13,10 +13,11 @@
   - ブレットボード
   - ジャンパ線
   ## 回路
-  
+  ![ESP32_servo](https://user-images.githubusercontent.com/76610691/148865314-453b0797-02c0-4e8f-930a-f2fb5840f6a7.jpg)
   ## 実行方法
   ### セットアップ
-  
+  #### ROSのセットアップ
+  ROSのセットアップは[Ryuich Ueda](https://github.com/ryuichiueda)様の[ロボットシステム学第10回](https://youtu.be/PL85Pw_zQH0)の動画を参考にしました
   ### 実行
   
   ## 実際に動かした動画
