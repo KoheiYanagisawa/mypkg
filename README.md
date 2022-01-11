@@ -18,7 +18,19 @@
   ### セットアップ
   #### ROSのセットアップ
   ROSのセットアップは[Ryuich Ueda](https://github.com/ryuichiueda)様の[ロボットシステム学第10回](https://youtu.be/PL85Pw_zQH0)の動画を参考にしました
+  #### パッケージのセットアップ
+  ```
+  cd ~/catkin_ws/src/
+  git clone https://github.com/KoheiYanagisawa/mypkg.git
+  cd ../
+  catkin build
+  source ~/.bashrc
+  ```
   ### 実行
+  端末を立ち上げ以下のコマンドを入力
+  ```
+  roslaunch mypkg main.launch
+  ```
   
   ## 実際に動かした動画
 https://youtu.be/5n7cQr-E7A8
